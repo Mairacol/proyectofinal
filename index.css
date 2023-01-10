@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --withe:#fafafb;
+    --pink:#f2a0bd;
+    --purple:#c09eff;
+    --green:#2c7b90;
+    --pinkdark:#ff5382;
+    --purpledark:#e33bf9;
+
+}
+body{
+    background: linear-gradient(to bottom, var(--purple),var(--pink),var(--purple));
+    height:100vh;
+    font-family:"Raleway", sans-serif;
+    background-size: cover;
+}
+.container{
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/* PERFIL*/
+.perfil h1 {
+    color: var(--withe);
+    margin-bottom: 30px;
+    text-shadow: 2px 4px 10px var(--pinkdark);
+}
+.perfil span {
+    color: var(--withe);
+    letter-spacing: 1px; 
+  
+
+}
+
+#fecha {
+    color: var(--withe);
+    padding: 50px 0 5px 0 ;
+    
+}
+/* AGREGAR TAREA*/
+.agregar-tarea{
+background-color: var(--withe);
+border-radius: 15px;
+height: 70px;
+display: flex;
+align-items: center;
+padding: 10px;
+gap: 70px;
+margin: 40px 0;
+color:var(--withe);
+
+}
+.agregar-tarea input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border:none;
+    background-color: var(--withe);
+    outline:none;
+    
+}
+
+.agregar-tarea i{
+font-size: 50px;
+color: var(--purple);
+
+}
+.agregar-tarea i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.agregar-tarea input::placeholder{
+    font-size: 1.1rem;
+    color: var(rebeccapurple);
+}
+
+/*SECCIÓN TAREA*/
+.seccion-tarea h3{
+color:var(--withe);
+margin-bottom: 20px;
+text-shadow: 2px 4px 10px var(--pinkdark);
+
+}
+.seccion-tarea li {
+    display: flex;
+    background: linear-gradient(to bottom, var(--purple),var(--purpledark));
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: var(--withe);
+
+
+}
+.seccion-tarea i {
+    font-size: 25px;
+
+
+}
+
+.seccion-tarea i:hover{
+    color: var(--pink);
+    cursor: pointer;
+}
+.seccion-tarea > ul p{
+     font-size: 1.2rem;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: var(--purple);
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
